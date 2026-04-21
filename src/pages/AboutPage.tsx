@@ -107,7 +107,7 @@ const values = [
 ];
 
 const team = [
-  { name: 'Dr. A. Viviana Santos', role: 'Lead Dentist & Founder', image: '/images/dr.marcia_252bmartinez.jpg' },
+  { name: 'Dr. A. Viviana Santos', role: 'Lead Dentist & Founder', image: '/images/doctor.png' },
   { name: 'Dr. Robert Wilson', role: 'Orthodontist Specialist', image: 'https://picsum.photos/seed/doc2/400/400' },
   { name: 'Dr. Sarah Lopez', role: 'Cosmetic Specialist', image: 'https://picsum.photos/seed/doc3/400/400' },
   { name: 'Dr. James Miller', role: 'Periodontist', image: 'https://picsum.photos/seed/doc4/400/400' },

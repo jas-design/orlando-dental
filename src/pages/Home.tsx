@@ -223,7 +223,7 @@ export default function Home({ setPage }: HomeProps) {
            >
               <div className="aspect-[4/5] md:aspect-[3/4] rounded-3xl overflow-hidden border-[12px] border-white shadow-2xl relative z-10">
                  <img 
-                    src="images/dr.marcia_252bmartinez.jpg" 
+                    src="images/doctor.png" 
                     alt="Dr. A. Viviana Santos" 
                     className="w-full h-full object-cover"
                  />
