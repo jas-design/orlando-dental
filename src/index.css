@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", sans-serif;
+  
+  --color-primary: #FDA52A; /* OC Dentist Orange */
+  --color-primary-dark: #e59424;
+  --color-secondary: #9EB3C2; /* OC Dentist Blue-Grey */
+  --color-navy: #1a2333;
+  --color-soft: #fff9f2;
+  
+  --radius-medical: 12px;
+}
+
+@layer base {
+  body {
+    @apply font-sans antialiased bg-white text-navy selection:bg-primary selection:text-white;
+  }
+}
+
+@layer utilities {
+  .dentia-button {
+    @apply bg-primary text-white px-6 py-3 font-bold text-sm rounded-lg hover:bg-primary-dark transition-all inline-flex items-center justify-center gap-2 shadow-sm active:scale-95;
+  }
+  
+  .dentia-input {
+    @apply bg-white border border-gray-200 text-navy placeholder:text-gray-400 px-4 py-3 rounded-lg focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all text-sm;
+  }
+
+  .section-label {
+    @apply text-primary font-bold text-xs uppercase tracking-[0.2em] mb-3 block;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-5xl font-extrabold text-navy leading-[1.1] tracking-tight mb-4;
+  }
+
+  .section-desc {
+    @apply text-gray-500 text-sm md:text-base max-w-2xl leading-relaxed;
+  }
+
+  .glass-card {
+    @apply bg-white border border-gray-100 rounded-xl shadow-sm hover:shadow-md transition-all;
+  }
+
+  .dentia-button-secondary {
+    @apply bg-secondary text-white px-6 py-3 font-bold text-sm rounded-lg hover:opacity-90 transition-all inline-flex items-center justify-center gap-2 shadow-sm active:scale-95;
+  }
+}
