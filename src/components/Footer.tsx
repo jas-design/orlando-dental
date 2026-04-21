@@ -18,12 +18,12 @@ export default function Footer({ setPage }: FooterProps) {
             onClick={() => setPage('home')}
           >
             <div className="flex flex-col -space-y-1">
-              <span className="text-white font-extrabold text-3xl tracking-tighter uppercase italic">OC Smiles</span>
+              <span className="text-white font-extrabold text-3xl tracking-tighter uppercase italic">Orlando Dental Care</span>
               <span className="text-primary text-[10px] tracking-[0.3em] font-black uppercase">Dentist Studio</span>
             </div>
           </div>
           <p className="text-[11px] leading-relaxed font-bold uppercase tracking-wider opacity-80">
-            Professional dental services in Orlando, FL. Dr. Marcia Marinez provides world-class smile transformations with a patient-first approach.
+            Professional dental services in Orlando, FL. Dr. A. Viviana Santos provides world-class smile transformations with a patient-first approach.
           </p>
           <div className="space-y-3 pt-2">
             <div className="flex items-center gap-3 text-[11px] font-bold text-white/70">

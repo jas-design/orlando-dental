@@ -95,13 +95,13 @@ export default function Home({ setPage }: HomeProps) {
              className="max-w-2xl space-y-6"
            >
               <div className="space-y-2">
-                 <span className="text-white font-bold text-sm uppercase tracking-[0.3em] bg-primary/80 px-3 py-1 rounded inline-block">Welcome to OC Smiles</span>
+                 <span className="text-white font-bold text-sm uppercase tracking-[0.3em] bg-primary/80 px-3 py-1 rounded inline-block">Welcome to Orlando Dental Care</span>
                  <h1 className="text-5xl md:text-7xl font-black text-white leading-[1.05] tracking-tight">
                    The Smile Studio for <span className="text-primary italic">Comprehensive</span> Dental Care
                  </h1>
               </div>
               <p className="text-white text-lg md:text-xl font-medium max-w-lg leading-relaxed drop-shadow-md">
-                Dr. Marcia Marinez provides high-quality dentistry in Orlando, FL, including Invisalign®, cosmetic enhancements, and restorative care.
+                Dr. A. Viviana Santos provides high-quality dentistry in Orlando, FL, including Invisalign®, cosmetic enhancements, and restorative care.
               </p>
               <div className="flex flex-wrap gap-4 pt-4">
                  <button onClick={() => setPage('contact')} className="dentia-button !px-10 !py-4 shadow-xl shadow-orange-500/20">
@@ -224,7 +224,7 @@ export default function Home({ setPage }: HomeProps) {
               <div className="aspect-[4/5] md:aspect-[3/4] rounded-3xl overflow-hidden border-[12px] border-white shadow-2xl relative z-10">
                  <img 
                     src="images/dr.marcia_252bmartinez.jpg" 
-                    alt="Dr. Marcia Marinez" 
+                    alt="Dr. A. Viviana Santos" 
                     className="w-full h-full object-cover"
                  />
               </div>
@@ -249,7 +249,7 @@ export default function Home({ setPage }: HomeProps) {
                  <h2 className="section-title">Welcome to Orange County Dentist</h2>
               </div>
               <p className="text-gray-500 font-medium leading-relaxed">
-                At OC Smiles, Dr. Marcia Marinez and our dedicated team offer comprehensive dental solutions tailored to your unique needs. We believe in providing the highest standard of care in a comfortable, studio-like environment.
+                At Orlando Dental Care, Dr. A. Viviana Santos and our dedicated team offer comprehensive dental solutions tailored to your unique needs. We believe in providing the highest standard of care in a comfortable, studio-like environment.
               </p>
               
               <div className="grid sm:grid-cols-2 gap-6 pb-4">

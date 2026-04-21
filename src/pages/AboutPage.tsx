@@ -25,7 +25,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
            <div className="relative">
               <div className="aspect-[4/5] rounded-[40px] overflow-hidden border-[15px] border-white shadow-2xl relative z-10">
-                 <img src="https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=800" alt="Dr. Marcia Marinez" className="w-full h-full object-cover" />
+                 <img src="https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=800" alt="Dr. A. Viviana Santos" className="w-full h-full object-cover" />
               </div>
               <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-primary/10 rounded-full blur-3xl z-0"></div>
            </div>
@@ -34,15 +34,15 @@ export default function AboutPage() {
               <div className="space-y-4">
                  <span className="section-label">Our Story</span>
                  <h2 className="section-title">
-                   Meet Dr. Marcia Marinez & The Team
+                   Meet Dr. A. Viviana Santos & The Team
                  </h2>
               </div>
               <div className="space-y-6 text-gray-500 text-lg font-medium leading-relaxed">
                 <p>
-                  At Orange County Dentist, we believe that a healthy smile is the foundation of confidence and well-being. Dr. Marcia Marinez founded our Orlando studio with a simple goal: to provide world-class dental care in a setting that feels safe, modern, and welcoming.
+                  At Orange County Dentist, we believe that a healthy smile is the foundation of confidence and well-being. Dr. A. Viviana Santos founded our Orlando studio with a simple goal: to provide world-class dental care in a setting that feels safe, modern, and welcoming.
                 </p>
                 <p>
-                  Our clinic, known to locals as OC Smiles, specializes in a wide array of dental services. From the transformative power of Invisalign® to the precision of restorative dental implants, we are committed to using the latest technology to achieve optimal results for every patient.
+                  Our clinic, known to locals as Orlando Dental Care, specializes in a wide array of dental services. From the transformative power of Invisalign® to the precision of restorative dental implants, we are committed to using the latest technology to achieve optimal results for every patient.
                 </p>
               </div>
               
@@ -107,7 +107,7 @@ const values = [
 ];
 
 const team = [
-  { name: 'Dr. Marcia Marinez', role: 'Lead Dentist & Founder', image: '/images/dr.marcia_252bmartinez.jpg' },
+  { name: 'Dr. A. Viviana Santos', role: 'Lead Dentist & Founder', image: '/images/dr.marcia_252bmartinez.jpg' },
   { name: 'Dr. Robert Wilson', role: 'Orthodontist Specialist', image: 'https://picsum.photos/seed/doc2/400/400' },
   { name: 'Dr. Sarah Lopez', role: 'Cosmetic Specialist', image: 'https://picsum.photos/seed/doc3/400/400' },
   { name: 'Dr. James Miller', role: 'Periodontist', image: 'https://picsum.photos/seed/doc4/400/400' },

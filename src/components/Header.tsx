@@ -35,7 +35,7 @@ export default function Header({ currentPage, setPage }: HeaderProps) {
           onClick={() => setPage('home')}
         >
           <img 
-            src="images/oc_smiles_brand_horizontal26f7.png" 
+            src="images/logo-header.png" 
             alt="Orange County Smiles Logo" 
             className="{`h-12 md:h-16 w-auto transition-all `}"
             referrerPolicy="no-referrer"
